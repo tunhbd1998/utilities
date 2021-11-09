@@ -1,0 +1,56 @@
+{
+  "name": "@tunhbd1998/utilities",
+  "version": "1.0.1-1",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:tunhbd1998/utilities.git"
+  },
+  "license": "MIT",
+  "author": "Tu Nguyen <tunhbd1998@gmail.com>",
+  "scripts": {
+    "rm-old-build": "rm -rf airtable-connection api-client app-communication common mixpanel phone rabbitmq sentry utils uuid *.d.ts *.js",
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.8.0",
+    "@types/axios": "^0.14.0",
+    "@types/crypto-js": "^4.0.1",
+    "@types/jsonwebtoken": "^8.5.5",
+    "@types/node": "^15.12.2",
+    "@types/numeral": "^2.0.1",
+    "@types/query-string": "^6.3.0",
+    "@types/ramda": "^0.27.44",
+    "@types/react": "^17.0.11",
+    "@types/url-join": "^4.0.0",
+    "@types/uuid": "^8.3.1",
+    "@types/uuid-validate": "^0.0.1",
+    "ts-node": "9.1.1",
+    "typescript": "^4.3.2"
+  },
+  "peerDependencies": {
+    "@sentry/node": "^6.7.1",
+    "@sentry/react": "^6.7.1",
+    "@sentry/tracing": "^6.7.1",
+    "airtable-plus": "^1.0.4",
+    "amqplib": "^0.8.0",
+    "awesome-phonenumber": "2.51.1",
+    "axios": "^0.21.1",
+    "crypto-js": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mixpanel": "^0.13.0",
+    "numeral": "^2.0.6",
+    "query-string": "^7.0.1",
+    "react": "^17.0.2",
+    "url-join": "^4.0.1",
+    "uuid": "^8.3.2",
+    "uuid-validate": "^0.0.3",
+    "ramda": "^0.27.1"
+  },
+  "dependencies": {},
+  "description": "",
+  "bugs": {
+    "url": "https://github.com/tunhbd1998/utilities/issues"
+  },
+  "homepage": "https://github.com/tunhbd1998/utilities/issues#readme"
+}
